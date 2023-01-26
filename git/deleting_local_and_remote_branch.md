@@ -50,7 +50,7 @@ git branch <branch name>
 or if the hash of commit 3 is not remembered:
 ```
 git reflog #get the hash of commit 3
-git checkout <hash of commit 3
+git checkout <hash of commit 3>
 git branch <branch name>
 ```
 
