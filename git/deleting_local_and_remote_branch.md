@@ -1,6 +1,6 @@
 # Deleting local and remote branch
 ---
-When deleting local and remote branches there are two scenarios to be considered. First scenario is when the taeget branch is up to date with main branch:
+When deleting local and remote branches there are two scenarios to be considered. First scenario is when the target branch is up to date with main branch:
 <pre>
                              main
                                |
