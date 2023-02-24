@@ -1,6 +1,6 @@
 # Deleting local and remote branch
 ---
-When deleting local and remote branches there are scenarios to be considered. First scenario is when the branch is up to date with main branch:
+When deleting local and remote branches there are scenarios to be considered. First scenario is when the taeget branch is up to date with main branch:
 <pre>
                              main
                                |
@@ -19,7 +19,7 @@ After deletion the commit history will look like:
                                |  
 commit 1 <--- commit 2 <--- commit 3
 </pre>
-Second scenario is when the branch is not up to date with the main branch (with unmerged changed):
+Second scenario is when the target branch is not up to date with the main branch (with unmerged changed):
 <pre>
                main  
                  |  
