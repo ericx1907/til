@@ -40,7 +40,7 @@ After deletion the commit history will look like:
                  |  
 commit 1 <--- commit 2 <--- commit 3  
 </pre>
-The commit 3 is still in the repo. If we don't have the hash of commit 3 it will be permanently lost because in git commit only has reference to its parents but not children. From the commit that main points to, you can only move backward, so there’s no way for you to reach the commits formerly pointed to by test.
+The commit 3 is still in the repo. If we don't have the hash of commit 3 it will be permanently lost because git commit only has reference to its parents but not children. From the commit that main points to, you can only move backward, so there’s no way for you to reach the commits formerly pointed to by test.
 
 To recover the commit 3:
 ```
