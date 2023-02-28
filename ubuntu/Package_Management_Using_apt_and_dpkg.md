@@ -12,7 +12,7 @@ To find which package a file belongs to:
 dpkg -S `which less`
 ```
 
-Here the `` `` `` is a command subsitution which excutes the command and return the result in double backticks first.
+Here the `` ` ` `` is a command subsitution which excutes the command and return the result in double backticks first.
 
 To list all files a package contains (including their full path):
 
