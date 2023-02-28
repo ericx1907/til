@@ -11,6 +11,7 @@ We learn and need to learn everyday. This repo is a collection of small things I
 * [Bash](#bash)
 * [Git](#git)
 * [ripgrep](#ripgrep)
+* [Ubunutu](#ubuntu)
 
 ---
 
@@ -25,3 +26,8 @@ We learn and need to learn everyday. This repo is a collection of small things I
 ## ripgrep
 
 - [Muiltiline Line Matching Using Ripgrep](ripgrep/muiltiline_line_matching_using_ripgrep.md)
+
+## Ubuntu
+
+- [Package Management Using apt and dpkg](ubuntu/Package_Management_Using_apt_and_dpkg.md)
+
