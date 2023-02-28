@@ -12,7 +12,7 @@ To find which package a file belongs to:
 dpkg -S `which less`
 ```
 
-Here the `` ` ` `` is a command subsitution which excutes the command and return the result in double backticks first.
+Here the `` ` ` `` is a command subsitution which excutes the command in double backticks first and return the result.
 
 To list all files a package contains (including their full path):
 
@@ -20,4 +20,4 @@ To list all files a package contains (including their full path):
 dpkg -L $(which less)
 ```
 
-The '$()' is another way of doing command substitution.
+The `$()` is another way of doing command substitution.
