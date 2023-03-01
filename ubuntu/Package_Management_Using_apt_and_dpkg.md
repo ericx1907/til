@@ -21,3 +21,5 @@ dpkg -L $(which less)
 ```
 
 The '$()' is another way of doing command substitution.
+
+There is a comprehensive and detailed guide on bash avialable online: [here](https://tldp.org/LDP/abs/abs-guide.pdf)
