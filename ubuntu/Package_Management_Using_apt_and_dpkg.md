@@ -1,4 +1,4 @@
-`dpkg` is the low level package manager for Debain(Ubuntu is a distribution based on Debian), which is called by `apt-get` at some point. `apt` provides the same functionality as `apt-get` and `apt-cache` but is more user-friendly and more suitable for interactive use by default.
+`dpkg` is the low level package manager for Debain (Ubuntu is a linux distribution based on Debian). `dpkg` is called by `apt-get/apt-cache` at some point. `apt` provides the same functionality as `apt-get` and `apt-cache` but is more user-friendly and more suitable for interactive use by default.
 
 To update, upgrade system packages:
 ```{bash}
@@ -12,7 +12,7 @@ To find which package a file belongs to:
 dpkg -S `which less`
 ```
 
-Here the `` `` `` is a command subsitution which excutes the command and return the result in double backticks first.
+Here the `` ` ` `` is a command subsitution which excutes the command in double backticks first and return the result.
 
 To list all files a package contains (including their full path):
 
