@@ -1,6 +1,6 @@
 Bash ifself is capable of manipulating files. There is no need to write a seperate c/c++ program that uses iostream.h. The following code example shows how to write certain patterns to a binary file. 
 
-```bash
+```c
 num_of_expected_args=2
 if [ $# != $num_of_expected_args ]
 then
@@ -23,3 +23,12 @@ The `${oldfn%.$suff}` will delete `.$suff` from the string represented by variab
 The `< /dev/zero head -c 4` is equivalent to `head -c 4 < /dev/zero`, which is to read null characters from the special file and pass them to the **head** program. Then the **head** program will print first 4 null chars to stdout and it will be pipelined to the **tr** program. The *tr* program will translate the null character into a specified number (in octal) then redirect to a file whose name is represented by `newfn`.
 
 The `>>` redirect and append stdout to file `$newfn`.
+
+```cpp
+typedef unsigned long error_t;
+
+bool fn( error_t & err,
+         string & o_data,
+         int & d_bufsize,
+         int i_mode = MODE_COPY );
+```
