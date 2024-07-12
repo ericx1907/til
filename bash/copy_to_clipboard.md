@@ -28,6 +28,6 @@ What this does is:
 ```vim
 vnoremap <silent><C-c> "zy:call writefile(getreg('z', 1, 1), $HOME."/.vim/vim_clipboard")<CR>:call system("xclip -r -sel c $HOME/.vim/vim_clipboard")<CR>
 ```
-In Method 1 despite the `g_` motion the `:w` command actually write the whole line including the new line charater at the end into the clipboard.[[1]] Method 2 fix this issue. `"zy` ensures the content select by visual mode is yanked into the z register. the `writefile` internal function writes the context of z register into a external file. Then the xclip is called to read the file into the system clipboard. 
+In Method 1 despite the `g_` motion the `:w` command actually write the whole line including the new line charater at the end into the clipboard.[[1]] Method 2 fixes this issue. `"zy` ensures the content select by visual mode is yanked into the z register. the `writefile` internal function writes the context of z register into a external file. Then the xclip is called to read the file into the system clipboard. 
 
 [1]: https://vimhelp.org/visual.txt.html#visual-examples
