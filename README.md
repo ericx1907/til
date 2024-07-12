@@ -8,25 +8,25 @@ We learn and need to learn everyday. This repo is a collection of small things I
 
 ## Categories
 
-* [Bash](#bash)
-* [Git](#git)
+* [bash](#bash)
+* [git](#git)
 * [ripgrep](#ripgrep)
-* [Ubunutu](#ubuntu)
+* [ubunutu](#ubuntu)
 
 ---
 
 ## Bash
 
-- [Writing to A Binary File](bash/writing_to_a_binary_file.md)
+- [writing to a binary file](bash/writing_to_a_binary_file.md)
 - [copy to clipboard](bash/copy_to_clipboard.md)
 
 ## Git
 
-- [Deleting Local and Remote Branch](git/deleting_local_and_remote_branch.md)
+- [deleting local and remote branch](git/deleting_local_and_remote_branch.md)
 
 ## ripgrep
 
-- [Muiltiline Line Matching Using Ripgrep](ripgrep/muiltiline_line_matching_using_ripgrep.md)
+- [muiltiline line matching using ripgrep](ripgrep/muiltiline_line_matching_using_ripgrep.md)
 
 ## Ubuntu
 
