@@ -1,4 +1,4 @@
-There are two approaches to problem.
+There are two approaches to this problem.
 
 ## Install a version of vim that has clipboard support:
 Use `vim --version | grep clipboard` to check if vim has clipboard. If it return `-clipboard` that means it doe not have that. Either recompile vim or install a vim package that has that clipboard. On Debin/Ubuntu: `sudo apt install vim-gtk3`.
