@@ -1,7 +1,7 @@
 There are two approaches to this problem.
 
 ## Install a version of vim that has clipboard support:
-Use `vim --version | grep clipboard` to check if vim has clipboard. If it return `-clipboard` that means it doe not have that. Either recompile vim or install a vim package that has that clipboard. On Debin/Ubuntu: `sudo apt install vim-gtk3`.
+Use `vim --version | grep clipboard` to check if vim has clipboard. If it returns `-clipboard` that means it doe not have that. Either recompile vim or install a vim package that has that clipboard. On Debin/Ubuntu: `sudo apt install vim-gtk3`.
 
 Vim with clipboard support will have a special register named `+` corresponding to the system clipboard.In visual mode use`"*y` then the content can be pasted into any other program.
 
