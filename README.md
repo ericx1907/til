@@ -18,6 +18,7 @@ We learn and need to learn everyday. This repo is a collection of small things I
 ## Bash
 
 - [Writing to A Binary File](bash/writing_to_a_binary_file.md)
+- [copy to clipboard](bash/copy_to_clipboard.md)
 
 ## Git
 
