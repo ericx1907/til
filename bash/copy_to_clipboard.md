@@ -12,11 +12,11 @@ Vim with clipboard support will have a special register named `+` corresponding 
 ```vim
 vnoremap <C-c> <Esc>>a<CR><Esc><i<CR><Esc>viw:w !xclip -i -selection c<CR><CR>kJJ
 ```
-What this does is:
+What this does is:  
 `<Esc>`					stop Visual mode  
-`\`>`					go to the end of the Visual area  
+``>`					go to the end of the Visual area  
 `a<CR><Esc>`				break the line after the Visual area  
-`\`<`					jump to the start of the Visual area  
+``<`					jump to the start of the Visual area  
 `i<CR><Esc>`				break the line before the Visual area  
 `vg_`					select the the content you want to copy  
 `:w !xclip -i -selection c<CR><CR>`	copy to system clipboard using xclip  
