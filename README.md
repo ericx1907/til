@@ -9,18 +9,22 @@ We learn and need to learn everyday. This repo is a collection of small things I
 ## Categories
 
 * [bash](#bash)
+* [cron](#cron)
 * [git](#git)
 * [ripgrep](#ripgrep)
 * [ubunutu](#ubuntu)
 
 ---
 
-## Bash
+## bash
 
 - [writing to a binary file](bash/writing_to_a_binary_file.md)
 - [copy to clipboard](bash/copy_to_clipboard.md)
 
-## Git
+## Cron
+- [what is cron](cron/what_is_cron.md)
+  
+## git
 
 - [deleting local and remote branch](git/deleting_local_and_remote_branch.md)
 
