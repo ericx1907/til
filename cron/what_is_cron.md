@@ -8,6 +8,7 @@ A example crontab file:
 */1 * * * * * command/script >> path/to/file 2>&1
 ```
 Example of job definition:
+
 <p>
 .---------------- minute (0 - 59)
 |  .------------- hour (0 - 23)
