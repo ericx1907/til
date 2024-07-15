@@ -22,7 +22,7 @@ We learn and need to learn everyday. This repo is a collection of small things I
 - [copy to clipboard](bash/copy_to_clipboard.md)
 
 ## Cron
-- [what is cron](cron/what_is_cron.md)
+- [cron basic](cron/cron_basic.md)
   
 ## git
 
