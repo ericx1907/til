@@ -9,15 +9,15 @@ A example crontab file:
 ```
 Example of job definition:
 
-<p>
+<pre>
 .---------------- minute (0 - 59)  
 |  .------------- hour (0 - 23)  
 |  |  .---------- day of month (1 - 31)  
 |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...  
 |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7)  
 |  |  |  |  |  
-*  *  *  *  *   command to be executed  
-<\p>
+*  *  *  *  *     command to be executed  
+</pre>
 
 By default, cron will email the output of excuted command/script to your email using a MTA (Mail Transfer Agent) if you do not redirect its output to a file/log like the does in example. If your system does have a MTA pre-installed (e.g. Ubuntu) it will create a warning message in /var/log/syslog about no MTA. One can suppress this warning by add `MAILTO=''` on the first line of crontab.
 
