@@ -33,5 +33,5 @@ This repo is a collection of small things I haved learned including a piece of c
 - [Package Management Using apt and dpkg](ubuntu/Package_Management_Using_apt_and_dpkg.md)
 
 ## Vim
-- [copy to clipboard](bash/copy_to_clipboard.md)
+- [copy to clipboard](vim/copy_to_clipboard.md)
 
