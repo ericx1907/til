@@ -13,26 +13,25 @@ This repo is a collection of small things I haved learned including a piece of c
 * [git](#git)
 * [ripgrep](#ripgrep)
 * [ubunutu](#ubuntu)
+* [vim](#vim)
 
 ---
 
-## bash
-
+## Bash
 - [writing to a binary file](bash/writing_to_a_binary_file.md)
-- [copy to clipboard](bash/copy_to_clipboard.md)
 
 ## Cron
 - [cron basic](cron/cron_basic.md)
   
-## git
-
+## Git
 - [deleting local and remote branch](git/deleting_local_and_remote_branch.md)
 
-## ripgrep
-
+## Ripgrep
 - [muiltiline line matching using ripgrep](ripgrep/muiltiline_line_matching_using_ripgrep.md)
 
 ## Ubuntu
-
 - [Package Management Using apt and dpkg](ubuntu/Package_Management_Using_apt_and_dpkg.md)
+
+## Vim
+- [copy to clipboard](bash/copy_to_clipboard.md)
 
