@@ -45,4 +45,4 @@ format:   Help comments are display with their leading whitespace. For
 The @ symbol before `sed` command is a command prefix that prevent command from echoing out to the console.
 The sed command will substitute "## " with nothing EXCEPT for lines which contains "@sed" then print them out.
 
-[Credit](https://stackoverflow.com/questions/3477292/what-do-and-do-as-prefixes-to-recipe-lines-in-make)
+[Credit](https://stackoverflow.com/a/47107132)
