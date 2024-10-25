@@ -11,6 +11,7 @@ This repo is a collection of small things I haved learned including a piece of c
 * [bash](#bash)
 * [cron](#cron)
 * [git](#git)
+* [make](#make)
 * [ripgrep](#ripgrep)
 * [ubunutu](#ubuntu)
 * [vim](#vim)
@@ -25,6 +26,9 @@ This repo is a collection of small things I haved learned including a piece of c
   
 ## Git
 - [deleting local and remote branch](git/deleting_local_and_remote_branch.md)
+
+## Make
+- [self-documenting_makefile.md](make/self-documenting_makefile.md)
 
 ## Ripgrep
 - [muiltiline line matching using ripgrep](ripgrep/muiltiline_line_matching_using_ripgrep.md)
