@@ -26,6 +26,7 @@ This repo is a collection of small things I haved learned including a piece of c
   
 ## Git
 - [deleting local and remote branch](git/deleting_local_and_remote_branch.md)
+- [Rebasing_feature_branch_to_main_branch](git/Rebasing_feature_branch_to_main_branch.md)
 
 ## Make
 - [self-documenting_makefile.md](make/self-documenting_makefile.md)
