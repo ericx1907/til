@@ -1,4 +1,4 @@
-Bash ifself is capable of manipulating files. There is no need to write a seperate c/c++ program that uses iostream.h. The following code example shows how to write certain patterns to a binary file. 
+Bash ifself is capable of manipulating files. The following code example shows how to write certain patterns to a binary file. 
 
 ```bash
 num_of_expected_args=2
