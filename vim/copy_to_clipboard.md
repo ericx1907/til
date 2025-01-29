@@ -1,9 +1,9 @@
 There are two approaches to this problem.
 
 ## Install a version of vim that has clipboard support:
-Use `vim --version | grep clipboard` to check if vim has clipboard. If it returns `-clipboard` that means it doe not have that. Either recompile vim or install a vim package that has clipboard support. On Debin/Ubuntu: `sudo apt install vim-gtk3`.
+Use `vim --version | grep clipboard` to check if vim has clipboard. If it returns `-clipboard` that means it doe not have that. Either recompile vim or install a vim package that has clipboard support. For example, On Debin/Ubuntu: `sudo apt install vim-gtk3`.
 
-Vim with clipboard support will have a special register named `*` corresponding to the system clipboard. In visual mode use `"*y` then the content can be pasted into any other program.
+Vim with clipboard support will have a special register named `*` corresponding to the system clipboard. In visual mode select text that need to be copied then `"*y`.After that the content can be pasted into any other program in the system.
 
 
 ## Use custom key map:
@@ -28,6 +28,6 @@ What this does is:
 ```vim
 vnoremap <silent><C-c> "zy:call writefile(getreg('z', 1, 1), $HOME."/.vim/vim_clipboard")<CR>:call system("xclip -r -sel c $HOME/.vim/vim_clipboard")<CR>
 ```
-In Method 1 despite the `g_` motion the `:w` command actually write the whole line including the new line charater at the end into the clipboard.[[1]] Method 2 fixes this issue. `"zy` ensures the content select by visual mode is yanked into the z register. the `writefile` internal function writes the context of z register into an external file. Then the xclip is called to read the file into the system clipboard. 
+In Method 1 despite the `g_` motion the `:w` command actually write the whole line including the new line charater at the end into the clipboard.[[1]] Method 2 does not have this issue. `"zy` ensures the content select by visual mode is yanked into the z register. the `writefile` internal function writes the context of z register into an external file. Then the xclip is called to read the file into the system clipboard. 
 
 [1]: https://vimhelp.org/visual.txt.html#visual-examples
