@@ -19,24 +19,24 @@ This repo is a collection of small things I haved learned including a piece of c
 ---
 
 ## Bash
-- [writing to a binary file](bash/writing_to_a_binary_file.md)
+- [Writing to a binary file](bash/writing_to_a_binary_file.md)
 
 ## Cron
-- [cron basic](cron/cron_basic.md)
+- [Cron basic](cron/cron_basic.md)
 
 ## Git
-- [deleting local and remote branch](git/deleting_local_and_remote_branch.md)
+- [Deleting local and remote branch](git/deleting_local_and_remote_branch.md)
 - [Rebasing feature branch to main branch](git/Rebasing_feature_branch_to_main_branch.md)
 
 ## Make
-- [self-documenting makefile.md](make/self-documenting_makefile.md)
+- [Self-documenting makefile](make/self-documenting_makefile.md)
 
 ## Ripgrep
-- [muiltiline line matching using ripgrep](ripgrep/muiltiline_line_matching_using_ripgrep.md)
+- [Muiltiline line matching using ripgrep](ripgrep/muiltiline_line_matching_using_ripgrep.md)
 
 ## Ubuntu
 - [Package Management Using apt and dpkg](ubuntu/Package_Management_Using_apt_and_dpkg.md)
 
 ## Vim
-- [copy to clipboard](vim/copy_to_clipboard.md)
+- [Copy to clipboard](vim/copy_to_clipboard.md)
 
