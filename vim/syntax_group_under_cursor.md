@@ -1,4 +1,4 @@
-To find out the syntax group the object under cursor belongs to:
+To find out which syntax group the object under cursor belongs to:
 
 ```viml
 function! SynStack()
