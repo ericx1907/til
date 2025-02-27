@@ -23,8 +23,8 @@ To list a paticular highlight group in vim:
 filter LineNr hi[ghlight]
 ```
 
-To show which file is the last file that execute a certain command:
+To show which file is the last file that executes a certain command:
 
-```viml
+```
 verbose hi[ghlight] LineNr
 ```
