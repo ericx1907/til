@@ -19,7 +19,7 @@ let s = synID(line('.'), col('.'), 1) | echo synIDattr(s, 'name') . ' -> ' . syn
 
 To list a paticular highlight group in vim:
 
-```viml
+```
 filter LineNr hi[ghlight]
 ```
 
