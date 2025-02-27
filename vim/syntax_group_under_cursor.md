@@ -16,3 +16,15 @@ Simple one-liner of the above function if you dont want to clutter your vimrc:
 ```viml
 let s = synID(line('.'), col('.'), 1) | echo synIDattr(s, 'name') . ' -> ' . synIDattr(synIDtrans(s), 'name')
 ```
+
+To list a paticular highlight group in vim:
+
+```viml
+filter LineNr hi[ghlight]
+```
+
+To show which file is the last file that execute a certain command:
+
+```viml
+verbose hi[ghlight] LineNr
+```
