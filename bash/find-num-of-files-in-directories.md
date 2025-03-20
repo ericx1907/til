@@ -93,4 +93,4 @@ vim/syntax-group-under-cursor.md
 `fd[find]` is used instead of `find`. `fd` respects `.gitignore` file by default and can
 come handy when doing seartch in git repository. This example assumes that `/venv` is in
 the .gitignore file. `fd` also ignores any hidden directory or files by default. `-E`
-option can be used if more entries need to be excluded from seartching.
+option can be used if more entries need to be excluded from searching.
