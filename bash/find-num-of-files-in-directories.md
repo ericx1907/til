@@ -76,7 +76,7 @@ awk 'tot = tot + $1; END{printf "%7i %s\n", tot, "."}'
 ## Example 2:
 
 ```bash
-fd -g -t f -E 'docs' -E 'README.md' '*.md'
+$ fd -g -t f -E 'docs' -E 'README.md' '*.md'
 
 bash/find-num-of-files-in-directories.md
 bash/writing-to-a-binary-file.md
