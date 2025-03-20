@@ -60,7 +60,7 @@ awk 'tot = tot + $1; END{printf "%7i %s\n", tot, "."}'
   matched will be tested further by `-name` with pattern `*.md` which returns all
   markdown files and then print to standard output one entry per line.
 
-* `cut` will separate each line into parts with delimiter `/1 and select the second part
+* `cut` will separate each line into parts with delimiter `/` and select the second part
   which is essentially the directory name under current roor `./`.
 
 * `uniq -c` will merge adjacent matching line into one occurence and prefix each line
