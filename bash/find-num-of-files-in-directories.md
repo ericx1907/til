@@ -57,5 +57,5 @@ awk 'tot = tot + $1; END{printf "%7i %s\n", tot, "."}'
   ./venv and ./docs will not match and return `false`.
 
 * If `true` entries matched will be pruned by `-prune` action. If `false` entries not
-  matched will be tested by `-name` with pattern `*.md` which returns all markdown files
+  matched will be tested further by `-name` with pattern `*.md` which returns all markdown files
   and then print to standand output one entry per line.
