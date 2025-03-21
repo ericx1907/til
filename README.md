@@ -23,7 +23,7 @@ This repo is a collection of small things I haved learned including a piece of c
 - [Find Num Of Files In Directories](bash/find-num-of-files-in-directories.md)
 
 ## Cron
-- [Cron basic](cron/cron_basic.md)
+- [Cron basic](cron/cron-basic.md)
 
 ## Git
 - [Deleting Local And Remote Branch](git/deleting-local-and-remote-branch.md)
