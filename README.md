@@ -19,24 +19,25 @@ This repo is a collection of small things I haved learned including a piece of c
 ---
 
 ## Bash
-- [Writing to a binary file](bash/writing_to_a_binary_file.md)
+- [Writing To A Binary File](bash/writing-to-a-binary-file.md)
+- [Find Num Of Files In Directories](bash/find-num-of-files-in-directories.md)
 
 ## Cron
 - [Cron basic](cron/cron_basic.md)
 
 ## Git
-- [Deleting local and remote branch](git/deleting_local_and_remote_branch.md)
-- [Rebasing feature branch to main branch](git/Rebasing_feature_branch_to_main_branch.md)
+- [Deleting Local And Remote Branch](git/deleting-local-and-remote-branch.md)
+- [Rebasing Feature Branch To Main Branch](git/Rebasing-feature-branch-to-main-branch.md)
 
 ## Make
-- [Self-documenting makefile](make/self-documenting_makefile.md)
+- [Self-documenting makefile](make/self-documenting-makefile.md)
 
 ## Ripgrep
-- [Muiltiline line matching using ripgrep](ripgrep/muiltiline_line_matching_using_ripgrep.md)
+- [Muiltiline line matching using ripgrep](ripgrep/muiltiline-line-matching-using-ripgrep.md)
 
 ## Ubuntu
-- [Package Management Using apt and dpkg](ubuntu/Package_Management_Using_apt_and_dpkg.md)
+- [Package Management Using apt and dpkg](ubuntu/Package-Management-Using-apt-and-dpkg.md)
 
 ## Vim
-- [Copy to clipboard](vim/copy_to_clipboard.md)
-
+- [Copy to clipboard](vim/copy-to-clipboard.md)
+- [Syntax Group Under Cursor](vim/syntax-group-under-cursor.md)
