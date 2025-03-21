@@ -33,11 +33,11 @@ This repo is a collection of small things I haved learned including a piece of c
 - [Self-documenting makefile](make/self-documenting-makefile.md)
 
 ## Ripgrep
-- [Muiltiline line matching using ripgrep](ripgrep/muiltiline-line-matching-using-ripgrep.md)
+- [Muiltiline Line Matching Using Ripgrep](ripgrep/muiltiline-line-matching-using-ripgrep.md)
 
 ## Ubuntu
 - [Package Management Using apt and dpkg](ubuntu/package-management-using-apt-and-dpkg.md)
 
 ## Vim
-- [Copy to clipboard](vim/copy-to-clipboard.md)
+- [Copy To Clipboard](vim/copy-to-clipboard.md)
 - [Syntax Group Under Cursor](vim/syntax-group-under-cursor.md)
