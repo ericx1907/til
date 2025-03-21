@@ -27,7 +27,7 @@ This repo is a collection of small things I haved learned including a piece of c
 
 ## Git
 - [Deleting Local And Remote Branch](git/deleting-local-and-remote-branch.md)
-- [Rebasing Feature Branch To Main Branch](git/Rebasing-feature-branch-to-main-branch.md)
+- [Rebasing Feature Branch To Main Branch](git/rebasing-feature-branch-to-main-branch.md)
 
 ## Make
 - [Self-documenting makefile](make/self-documenting-makefile.md)
@@ -36,7 +36,7 @@ This repo is a collection of small things I haved learned including a piece of c
 - [Muiltiline line matching using ripgrep](ripgrep/muiltiline-line-matching-using-ripgrep.md)
 
 ## Ubuntu
-- [Package Management Using apt and dpkg](ubuntu/Package-Management-Using-apt-and-dpkg.md)
+- [Package Management Using apt and dpkg](ubuntu/package-management-using-apt-and-dpkg.md)
 
 ## Vim
 - [Copy to clipboard](vim/copy-to-clipboard.md)
