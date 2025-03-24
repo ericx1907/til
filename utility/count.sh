@@ -13,14 +13,12 @@ while read -d '' dir ; do
   if [[ $num_in_dir -gt $num_in_readme ]]; then
     printf "entries in %s is greater than entries in readme.md!\n" $dir
     allmatch=0
-    echo haha
   elif [[ $num_in_dir -lt $num_in_readme ]]; then
     printf "entries in %s is less than entries in readme.md!\n" $dir
     allmatch=0
-    echo foo
   fi
 done
- 
+
 if [[ $allmatch -eq 1 ]]; then
   printf "entries in each subdirectory matches entries in readme.md!\n"
 fi
