@@ -2,7 +2,7 @@
 
 > Today I Learned
 
-This repo is a collection of small things I haved learned including a piece of code, syntax, useful commands, and tips. The goal of this repo is to serve as a small knowledge base in case I cannot put everything I learned in my brain.
+This repo is a collection of small things I haved learned including a piece of code, syntax, useful commands, and tips. The goal of this repo is to serve as a small knowledge base in case I cannot keep everything I learned in my brain.
 
 ---
 
