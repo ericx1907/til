@@ -9,7 +9,7 @@ function! SynStack()
 endfunc
 ```
 
-This creates a function you can call on vim command-line 
+This creates a function you can call on vim command-line
 
 Simple one-liner of the above function if you dont want to clutter your vimrc:
 
